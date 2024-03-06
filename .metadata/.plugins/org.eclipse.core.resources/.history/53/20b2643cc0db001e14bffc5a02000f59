@@ -1,0 +1,22 @@
+package pkg1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class K2 {
+
+	public static void main(String[] args) {
+		String url1="jdbc:mysql://localhost:3306/4mw20cs";
+		String user1="root";
+		String pwd1="root";
+		String drvr="com.mysql.cj.jdbc.Driver";
+		try {
+			Class.forName(drvr);
+			Connection conn1=DriverManager.getConnection(url1,user1,pwd1);
+		}
+		catch{
+			
+		}
+	}
+
+}

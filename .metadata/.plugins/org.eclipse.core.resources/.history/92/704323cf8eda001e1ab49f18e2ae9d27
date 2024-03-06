@@ -1,0 +1,14 @@
+package com.sangamone;
+
+public class A4 {
+
+	public static void main(String[] args) {
+		String alpha1=String.valueOf((char)(65+0));
+		String alpha2=String.valueOf((char)(65+1));
+		System.out.println(alpha1 + alpha2);
+		
+		
+
+	}
+
+}
